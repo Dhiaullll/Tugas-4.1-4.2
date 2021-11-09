@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(bg.jpeg);
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: pink;
+  padding: 3em;
+  text-align: center;
+  font-family: cursive;
+  font-size: larger;
+  color: rgb(252, 64, 158);
+}
+
+nav {
+  display: flex;
+
+  overflow: hidden;
+  background-color: hotpink;
+}
+ul {
+  display: flex;
+  margin-left: auto;
+}
+nav li {
+  margin-right: 3em;
+  list-style-type: none;
+}
+a {
+  display: block;
+
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: pink;
+}
+fieldset {
+  margin: 2em;
+  padding: 2em;
+  font-family: sans-serif;
+}
+.grid-container {
+  display: flex;
+}
+.dua {
+  margin-top: 2em;
+  margin-right: 3em;
+}
+.text {
+  margin-right: 5em;
+}
+p {
+  display: block;
+  text-align: justify;
+}
+.article {
+  margin-top: 3em;
+}
+
+
+.tiga {
+  display: flex;
+  margin-top: 3em;
+}
+
+.container {
+  margin-left: 5em;
+}
+.fd {
+  margin: 0em;
+  margin-left: 3em;
+}
+.fd a {
+  color: black;
+}
+i {
+  margin-top: 2em;
+}
+i a {
+  float: right;
+}
+.container-atas {
+  display: flex;
+}
+.container-bawah {
+  display: flex;
+}
